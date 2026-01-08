@@ -99,11 +99,11 @@ function agnoster::git::ahead
       {if (a > 0 && b > 0) nextfile}
       END {
         if (a > 0 && b > 0)
-          print "±";
+          print "⇣⇡";
         else if (a > 0)
-          print "+";
+          print "⇡";
         else if (b > 0)
-          print "-"
+          print "⇣"
       }'
 end
 
